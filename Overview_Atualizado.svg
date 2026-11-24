@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1060" width="1600" height="1060">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&amp;family=Inter:wght@400;500;600;700&amp;display=swap');
+      text { font-family: 'Montserrat', 'Inter', -apple-system, sans-serif; }
+      .title { font-weight: 900; fill: #1B3F22; letter-spacing: -0.5px; }
+      .subtitle { font-weight: 700; fill: #2E5A35; }
+      .box-title { font-weight: 800; font-size: 13px; fill: #FFFFFF; letter-spacing: 0.3px; }
+      .card-title { font-weight: 800; font-size: 13px; fill: #1B3F22; }
+      .body-bold { font-weight: 700; fill: #1E2D24; font-size: 11.5px; }
+      .body-text { font-weight: 500; fill: #3A4D40; font-size: 11px; }
+      .body-sub { font-weight: 500; fill: #6B7C70; font-size: 10px; }
+      .tag { font-weight: 700; font-size: 9.5px; }
+    </style>
+
+    <!-- Gradients & Shadows -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FBF9F2" />
+      <stop offset="100%" stop-color="#F3EFE3" />
+    </linearGradient>
+
+    <linearGradient id="header-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1B3F22" />
+      <stop offset="100%" stop-color="#2D5D37" />
+    </linearGradient>
+
+    <linearGradient id="solar-panel" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+
+    <linearGradient id="blue-tank" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284C7" />
+      <stop offset="70%" stop-color="#0369A1" />
+      <stop offset="100%" stop-color="#075985" />
+    </linearGradient>
+
+    <linearGradient id="green-tank" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="70%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+
+    
+    
+  </defs>
+
+  <!-- BACKGROUND -->
+  <rect width="1600" height="1060" fill="url(#bg-grad)" />
+
+  <!-- ==================== HEADER ==================== -->
+  <g transform="translate(40, 28)">
+    <!-- Logo Icon -->
+    <rect x="0" y="0" width="60" height="60" rx="14" fill="#204627" />
+    <!-- House & Leaf icon -->
+    <path d="M16 34 L30 20 L44 34 L40 34 L40 46 L20 46 L20 34 Z" fill="#FFFFFF" />
+    <path d="M30 18 Q38 12 45 18 Q46 28 36 26 Z" fill="#86EFAC" />
+
+    <!-- Titles -->
+    <text x="75" y="32" class="title" font-size="36">GLAMPING Suite Energy</text>
+    <text x="77" y="54" class="subtitle" font-size="16">Autonomia, Conforto e Sustentabilidade em 40 m² + Módulo Técnico (5 m²)</text>
+
+    <!-- Tagline Right -->
+    <rect x="1080" y="2" width="440" height="56" rx="10" fill="#E8EFE8" stroke="#D1E0D3" stroke-width="1.2" />
+    <text x="1100" y="26" font-style="italic" font-weight="700" font-size="13" fill="#1B3F22">"Uma casa inteligente e 100% autossuficiente,</text>
+    <text x="1100" y="44" font-style="italic" font-weight="500" font-size="12" fill="#3D6846">longe das redes, em perfeita harmonia com a natureza."</text>
+  </g>
+
+  <!-- ==================== TOP LEFT: CÁLCULOS ESSENCIAIS ==================== -->
+  <g transform="translate(40, 110)">
+    <!-- Outer Card -->
+    <rect x="0" y="0" width="370" height="490" rx="10" fill="#FFFFFF" stroke="#DBD5C3" stroke-width="1.5" />
+    <!-- Header Banner -->
+    <path d="M0 10 Q0 0 10 0 L360 0 Q370 0 370 10 L370 36 L0 36 Z" fill="#204627" />
+    <text x="15" y="23" class="box-title">Cálculos Essenciais (fórmulas simples)</text>
+
+    <!-- 1. Energia -->
+    <g transform="translate(16, 50)">
+      <circle cx="16" cy="16" r="16" fill="#FEF3C7" />
+      <text x="16" y="22" font-size="16" text-anchor="middle">⚡</text>
+      <text x="42" y="16" class="card-title" font-size="13">Energia Off-Grid</text>
+      <text x="42" y="32" class="body-sub">Consumo diário: ≈ 2 kWh por dia (2 pax)</text>
+      <text x="42" y="47" class="body-bold">Total para 3 a 5 dias sem sol:</text>
+      <text x="42" y="62" class="body-text">2 kWh × 3 a 5 dias = 6 a 10 kWh</text>
+      <rect x="42" y="70" width="290" height="24" rx="4" fill="#EDF6EE" stroke="#C8E3CC" />
+      <text x="50" y="86" class="tag" fill="#1B3F22">→ Solução: EcoFlow Delta Pro 3 + Extensor = 8.192 Wh</text>
+    </g>
+
+    <!-- 2. Baterias -->
+    <g transform="translate(16, 160)">
+      <circle cx="16" cy="16" r="16" fill="#FEE2E2" />
+      <text x="16" y="22" font-size="15" text-anchor="middle">🔋</text>
+      <text x="42" y="16" class="card-title" font-size="13">Capacidade e Potência</text>
+      <text x="42" y="32" class="body-sub">Armazenamento LiFePO4: 8.192 Wh (8,2 kWh)</text>
+      <text x="42" y="47" class="body-bold">Inversor 230 V: 4.000 W (Pico de 8.000 W)</text>
+      <rect x="42" y="55" width="290" height="24" rx="4" fill="#FEF3C7" stroke="#FDE68A" />
+      <text x="50" y="71" class="tag" fill="#92400E">☀️ 4x Painéis 400 W (1.600 Wp) = Energia contínua!</text>
+    </g>
+
+    <!-- 3. Água Potável -->
+    <g transform="translate(16, 255)">
+      <circle cx="16" cy="16" r="16" fill="#E0F2FE" />
+      <text x="16" y="22" font-size="16" text-anchor="middle">💧</text>
+      <text x="42" y="16" class="card-title" font-size="13">Água Potável</text>
+      <text x="42" y="32" class="body-sub">Consumo: ≈ 80-100 L por pessoa / dia</text>
+      <text x="42" y="47" class="body-bold">Reserva para 3 a 5 dias (2 pax):</text>
+      <text x="42" y="62" class="body-text">2 pessoas × 5 dias × 100 L = 1.000 L</text>
+      <rect x="42" y="70" width="290" height="24" rx="4" fill="#E0F2FE" stroke="#BAE6FD" />
+      <text x="50" y="86" class="tag" fill="#0369A1">→ Escolha: 1.000 L Leroy Merlin (Raio 0,47 m &lt;&lt; 2 m)</text>
+    </g>
+
+    <!-- 4. Águas de Reaproveitamento -->
+    <g transform="translate(16, 365)">
+      <circle cx="16" cy="16" r="16" fill="#DCFCE7" />
+      <text x="16" y="22" font-size="16" text-anchor="middle">♻️</text>
+      <text x="42" y="16" class="card-title" font-size="13">Águas Residuais / Reaproveitamento</text>
+      <text x="42" y="32" class="body-sub">Autoclismo sanitário: 6 L / descarga (≈35 L/dia)</text>
+      <text x="42" y="47" class="body-bold">Autonomia garantida no autoclismo:</text>
+      <text x="42" y="62" class="body-text">500 L = Mais de 14 dias de descargas!</text>
+      <rect x="42" y="70" width="290" height="24" rx="4" fill="#DCFCE7" stroke="#BBF7D0" />
+      <text x="50" y="86" class="tag" fill="#15803D">→ Escolha: RoQuadro 500 L Hidrostation (0,58 m² chão)</text>
+    </g>
+  </g>
+
+  <!-- ==================== TOP CENTER: PLANTA TIPO ==================== -->
+  <g transform="translate(430, 110)">
+    <rect x="0" y="0" width="560" height="490" rx="10" fill="#FFFFFF" stroke="#DBD5C3" stroke-width="1.5" />
+    <!-- Header Banner -->
+    <path d="M0 10 Q0 0 10 0 L550 0 Q560 0 560 10 L560 36 L0 36 Z" fill="#204627" />
+    <text x="15" y="23" class="box-title" font-size="12">Planta Tipo – 40 m² + Módulo Técnico (5 m²)</text>
+    <rect x="440" y="7" width="105" height="22" rx="4" fill="#2E5A35" />
+    <text x="492" y="22" font-size="10.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">6,40 m × 6,25 m</text>
+
+    <!-- SVG Floorplan Drawing -->
+    <g transform="translate(20, 50)">
+      <!-- Main House Outer Walls (40 m2) -->
+      <rect x="0" y="20" width="350" height="380" fill="#FAF8F3" stroke="#1A2E20" stroke-width="7" rx="4" />
+      
+      <!-- Cota Superior 6,40 m -->
+      <line x1="0" y1="8" x2="350" y2="8" stroke="#526A59" stroke-width="1.5" />
+      <line x1="0" y1="4" x2="0" y2="12" stroke="#526A59" stroke-width="1.5" />
+      <line x1="350" y1="4" x2="350" y2="12" stroke="#526A59" stroke-width="1.5" />
+      <text x="175" y="5" font-size="11" font-weight="700" fill="#3D5644" text-anchor="middle">6,40 m</text>
+
+      <!-- Banheiro (5 m2) -->
+      <rect x="0" y="20" width="135" height="155" fill="#EBF4F9" stroke="#475C4C" stroke-width="3" />
+      <!-- Banheiro louças -->
+      <circle cx="35" cy="50" r="14" fill="#FFFFFF" stroke="#0284C7" stroke-width="2" />
+      <rect x="85" y="32" width="40" height="50" rx="3" fill="#FFFFFF" stroke="#0284C7" stroke-width="2" />
+      <path d="M15 130 C15 110, 45 110, 45 130 Z" fill="#93C5FD" stroke="#1D4ED8" stroke-width="1.5" />
+      <!-- Textos em cima das louças -->
+      <text x="67" y="105" font-size="13" font-weight="800" fill="#1B3F22" text-anchor="middle">Banheiro</text>
+      <text x="67" y="122" font-size="11" font-weight="700" fill="#0284C7" text-anchor="middle">5 m²</text>
+
+      <!-- Quarto (12 m2) -->
+      <rect x="135" y="20" width="215" height="175" fill="#FDFBF7" stroke="#475C4C" stroke-width="3" />
+      <text x="242" y="80" font-size="13" font-weight="800" fill="#1B3F22" text-anchor="middle">Quarto</text>
+      <text x="242" y="98" font-size="11" font-weight="700" fill="#4B7355" text-anchor="middle">12 m²</text>
+      <!-- Cama Casal -->
+      <rect x="180" y="35" width="125" height="105" rx="5" fill="#EAE2D2" stroke="#A89A84" stroke-width="2" />
+      <rect x="190" y="42" width="45" height="25" rx="3" fill="#FFFFFF" stroke="#C2B7A5" stroke-width="1" />
+      <rect x="250" y="42" width="45" height="25" rx="3" fill="#FFFFFF" stroke="#C2B7A5" stroke-width="1" />
+
+      <!-- Cozinha (8 m2) -->
+      <rect x="0" y="175" width="145" height="225" fill="#FDFBF7" stroke="#475C4C" stroke-width="3" />
+      <text x="72" y="260" font-size="13" font-weight="800" fill="#1B3F22" text-anchor="middle">Cozinha</text>
+      <text x="72" y="278" font-size="11" font-weight="700" fill="#4B7355" text-anchor="middle">8 m²</text>
+      <!-- Bancada & Fogão -->
+      <rect x="10" y="335" width="125" height="55" rx="3" fill="#E8DEC9" stroke="#8C7D68" stroke-width="1.5" />
+      <circle cx="35" cy="360" r="9" fill="#1E293B" />
+      <circle cx="60" cy="360" r="9" fill="#1E293B" />
+      <rect x="90" y="348" width="35" height="25" rx="2" fill="#93C5FD" stroke="#2563EB" stroke-width="1" />
+
+      <!-- Sala (15 m2) -->
+      <rect x="145" y="195" width="205" height="205" fill="#FAF5E8" stroke="#475C4C" stroke-width="3" />
+      <text x="247" y="285" font-size="13" font-weight="800" fill="#1B3F22" text-anchor="middle">Sala</text>
+      <text x="247" y="303" font-size="11" font-weight="700" fill="#4B7355" text-anchor="middle">15 m²</text>
+      <!-- Sofá e mesa -->
+      <rect x="205" y="215" width="90" height="40" rx="4" fill="#D3C7B2" stroke="#8A7B63" stroke-width="1.5" />
+      <circle cx="250" cy="340" r="20" fill="#EAE2D2" stroke="#A89A84" stroke-width="1.5" />
+
+      <!-- ==================== MÓDULO TÉCNICO (5 m2: 2.50m x 2.00m) ==================== -->
+      <rect x="370" y="120" width="150" height="280" rx="5" fill="#EAF3ED" stroke="#1B3F22" stroke-width="5" />
+      <!-- Banner Técnico -->
+      <path d="M370 125 Q370 120 375 120 L515 120 Q520 120 520 125 L520 148 L370 148 Z" fill="#204627" />
+      <text x="445" y="139" font-size="11" font-weight="800" fill="#FFFFFF" text-anchor="middle">MÓDULO TÉCNICO (5 m²)</text>
+
+      <!-- Depósito 1000L Potável (Horizontal) -->
+      <rect x="382" y="160" width="44" height="115" rx="12" fill="url(#blue-tank)" stroke="#0369A1" stroke-width="2" />
+      <text x="404" y="222" font-size="10" font-weight="800" fill="#FFFFFF" text-anchor="middle" transform="rotate(-90 404 222)">Água 1.000 L</text>
+      <text x="404" y="286" font-size="8" font-weight="700" fill="#0284C7" text-anchor="middle">r = 0,47 m</text>
+
+      <!-- Bomba Einhell 650 W Balão 20L -->
+      <rect x="382" y="300" width="34" height="24" rx="3" fill="#DC2626" stroke="#991B1B" stroke-width="1.5" />
+      <text x="399" y="315" font-size="8.5" font-weight="800" fill="#FFFFFF" text-anchor="middle">Bomba</text>
+      <text x="399" y="334" font-size="7.5" font-weight="700" fill="#991B1B" text-anchor="middle">650 W (20L)</text>
+
+      <!-- Depósito RoQuadro 500L (Aproveitamento) -->
+      <rect x="462" y="160" width="46" height="46" rx="4" fill="url(#green-tank)" stroke="#047857" stroke-width="2" />
+      <text x="485" y="182" font-size="8.5" font-weight="800" fill="#FFFFFF" text-anchor="middle">RoQuadro</text>
+      <text x="485" y="195" font-size="8.5" font-weight="800" fill="#FEF3C7" text-anchor="middle">500 L</text>
+      <text x="485" y="217" font-size="7.5" font-weight="700" fill="#047857" text-anchor="middle">+Bomba interna</text>
+
+      <!-- EcoFlow Delta Pro 3 + Bateria Extra -->
+      <rect x="462" y="285" width="46" height="34" rx="4" fill="#1E293B" stroke="#0F172A" stroke-width="2" />
+      <rect x="466" y="291" width="38" height="8" rx="1.5" fill="#38BDF8" opacity="0.8" />
+      <text x="485" y="311" font-size="8.5" font-weight="800" fill="#FFFFFF" text-anchor="middle">EcoFlow</text>
+      <text x="485" y="328" font-size="7.5" font-weight="700" fill="#0F172A" text-anchor="middle">8.192 Wh</text>
+
+      <!-- Corredor Livre Central -->
+      <rect x="432" y="228" width="26" height="75" rx="3" fill="#FFFFFF" stroke="#86EFAC" stroke-dasharray="3,3" stroke-width="1.2" />
+      <text x="445" y="255" font-size="8" font-weight="800" fill="#1B3F22" text-anchor="middle" transform="rotate(-90 445 255)">Corredor Livre (2,5 m²)</text>
+
+      <!-- Porta de Acesso Módulo Técnico -->
+      <line x1="425" y1="400" x2="475" y2="400" stroke="#D97706" stroke-width="4" />
+      <text x="450" y="415" font-size="9" font-weight="800" fill="#B45309" text-anchor="middle">Porta Módulo</text>
+
+      <!-- Dimension lines Módulo 2.50m x 2.00m -->
+      <text x="445" y="112" font-size="9" font-weight="700" fill="#1B3F22" text-anchor="middle">2,00 m</text>
+      <text x="532" y="260" font-size="9" font-weight="700" fill="#1B3F22" text-anchor="middle" transform="rotate(90 532 260)">2,50 m</text>
+    </g>
+  </g>
+
+  <!-- ==================== TOP RIGHT: VISTA EM CORTE 3D ==================== -->
+  <g transform="translate(1010, 110)">
+    <rect x="0" y="0" width="550" height="490" rx="10" fill="#FFFFFF" stroke="#DBD5C3" stroke-width="1.5" />
+    <!-- Header Banner -->
+    <path d="M0 10 Q0 0 10 0 L540 0 Q550 0 550 10 L550 36 L0 36 Z" fill="#204627" />
+    <text x="15" y="23" class="box-title">Vista em Corte 3D e Integração Externa</text>
+    <rect x="425" y="7" width="115" height="22" rx="4" fill="#2E5A35" />
+    <text x="482" y="22" font-size="10.5" font-weight="700" fill="#86EFAC" text-anchor="middle">Módulo Técnico</text>
+
+    <!-- Isometric Cutaway Graphic -->
+    <g transform="translate(25, 45)">
+      <!-- Ground Base -->
+      <polygon points="30,300 240,400 480,280 270,180" fill="#E3DFD3" stroke="#C4BFAF" stroke-width="2" />
+      <polygon points="30,300 240,400 240,415 30,315" fill="#BFB8A4" />
+      <polygon points="240,400 480,280 480,295 240,415" fill="#ABA28D" />
+
+      <!-- Main Glamping Structure (Timber cutaway) -->
+      <!-- Floor slab -->
+      <polygon points="60,280 230,360 410,270 240,190" fill="#F4EAD4" stroke="#9A8866" stroke-width="1.5" />
+      
+      <!-- Walls cutaway -->
+      <polygon points="60,280 60,200 230,280 230,360" fill="#E6D7BA" stroke="#7A6848" stroke-width="2" />
+      <polygon points="60,200 230,120 230,280" fill="#D3C09F" />
+      <polygon points="230,280 410,190 410,270" fill="#C5B08C" stroke="#7A6848" stroke-width="2" />
+
+      <!-- ROOF WITH 4X 400W SOLAR PANELS -->
+      <polygon points="70,180 230,100 400,185 240,265" fill="#334155" stroke="#0F172A" stroke-width="2" />
+      <!-- Solar cells texture -->
+      <g stroke="#38BDF8" stroke-width="1" opacity="0.8">
+        <line x1="110" y1="160" x2="270" y2="245" />
+        <line x1="150" y1="140" x2="310" y2="225" />
+        <line x1="190" y1="120" x2="350" y2="205" />
+        <line x1="150" y1="220" x2="310" y2="140" />
+      </g>
+      <rect x="170" y="165" width="160" height="22" rx="4" fill="#0F172A" opacity="0.9" />
+      <text x="250" y="180" font-size="10.5" font-weight="800" fill="#38BDF8" text-anchor="middle">☀️ 4x 400W (1.600 Wp)</text>
+
+      <!-- ATTACHED MÓDULO TÉCNICO (5 m2) -->
+      <!-- Transparent Walls -->
+      <polygon points="340,235 440,185 490,210 390,260" fill="#A7F3D0" opacity="0.5" stroke="#047857" stroke-width="2" />
+      <polygon points="390,260 490,210 490,320 390,370" fill="#C8E6C9" opacity="0.3" stroke="#047857" stroke-width="2" />
+      <polygon points="340,235 390,260 390,370 340,345" fill="#A5D6A7" opacity="0.4" stroke="#047857" stroke-width="2" />
+
+      <!-- Inside Módulo Técnico Equipments -->
+      <!-- 1. Depósito Potável 1000L Horizontal (Blue) -->
+      <ellipse cx="380" cy="315" rx="18" ry="32" fill="url(#blue-tank)" stroke="#0369A1" stroke-width="2" />
+      <ellipse cx="380" cy="285" rx="14" ry="6" fill="#38BDF8" />
+
+      <!-- 2. Bomba Einhell 650W Balão (Red) -->
+      <rect x="360" y="340" width="18" height="14" rx="2" fill="#DC2626" stroke="#991B1B" />
+
+      <!-- 3. Depósito RoQuadro 500L (Green) -->
+      <rect x="420" y="245" width="30" height="42" rx="3" fill="url(#green-tank)" stroke="#047857" stroke-width="2" />
+      <rect x="425" y="240" width="20" height="6" rx="2" fill="#34D399" />
+
+      <!-- 4. EcoFlow Delta Pro 3 + Extensor (Black & Cyan) -->
+      <rect x="445" y="295" width="28" height="28" rx="3" fill="#1E293B" stroke="#0F172A" stroke-width="1.5" />
+      <line x1="447" y1="305" x2="471" y2="305" stroke="#38BDF8" stroke-width="2" />
+
+      <!-- 5. Mini-ETAR Enterrada no Exterior -->
+      <ellipse cx="440" cy="385" rx="32" ry="14" fill="#374151" stroke="#1F2937" stroke-width="2" />
+      <circle cx="440" cy="380" r="10" fill="#6B7280" />
+      <text x="440" y="384" font-size="8" font-weight="800" fill="#FFFFFF" text-anchor="middle">ETAR</text>
+
+      <!-- Labels & Callout Arrows -->
+      <!-- Callout Depósito Potável -->
+      <line x1="365" y1="300" x2="310" y2="300" stroke="#0284C7" stroke-width="1.8" />
+      <circle cx="365" cy="300" r="3" fill="#0284C7" />
+      <rect x="180" y="288" width="125" height="24" rx="4" fill="#FFFFFF" stroke="#0284C7" stroke-width="1.2" />
+      <text x="242" y="304" font-size="9" font-weight="800" fill="#0284C7" text-anchor="middle">Dep. Potável 1.000 L</text>
+
+      <!-- Callout RoQuadro 500L -->
+      <line x1="450" y1="260" x2="495" y2="245" stroke="#059669" stroke-width="1.8" />
+      <circle cx="450" cy="260" r="3" fill="#059669" />
+      <rect x="420" y="222" width="120" height="24" rx="4" fill="#FFFFFF" stroke="#059669" stroke-width="1.2" />
+      <text x="480" y="238" font-size="9" font-weight="800" fill="#059669" text-anchor="middle">RoQuadro 500 L</text>
+
+      <!-- Callout Mini-ETAR -->
+      <line x1="440" y1="395" x2="440" y2="415" stroke="#4B5563" stroke-width="1.8" />
+      <circle cx="440" cy="395" r="3" fill="#4B5563" />
+      <rect x="375" y="415" width="130" height="22" rx="4" fill="#FFFFFF" stroke="#4B5563" stroke-width="1.2" />
+      <text x="440" y="429" font-size="8.5" font-weight="800" fill="#374151" text-anchor="middle">Mini-ETAR (Enterrada)</text>
+    </g>
+  </g>
+
+  <!-- ==================== BOTTOM ROW ==================== -->
+
+  <!-- BOTTOM LEFT: EQUIPAMENTOS RECOMENDADOS -->
+  <g transform="translate(40, 620)">
+    <rect x="0" y="0" width="370" height="400" rx="10" fill="#FFFFFF" stroke="#DBD5C3" stroke-width="1.5" />
+    <path d="M0 10 Q0 0 10 0 L360 0 Q370 0 370 10 L370 34 L0 34 Z" fill="#204627" />
+    <text x="15" y="22" class="box-title">Equipamentos Recomendados</text>
+
+    <!-- 1. Energia Elétrica -->
+    <g transform="translate(16, 45)">
+      <text x="0" y="14" class="card-title" font-size="12.5" fill="#D97706">⚡ Energia Elétrica (EcoFlow)</text>
+      <text x="10" y="32" class="body-text">✓ EcoFlow Delta Pro 3 (4.000 W / 8.000 W pico)</text>
+      <text x="10" y="48" class="body-text">✓ Extensor de Bateria Inteligente (Total: 8.192 Wh)</text>
+      <text x="10" y="64" class="body-text">✓ 4x Painéis Solares 400 W (Total: 1.600 Wp)</text>
+      <text x="10" y="80" class="body-text">✓ Cabos Solares MC4 → XT60i originais</text>
+    </g>
+
+    <!-- 2. Água Potável -->
+    <g transform="translate(16, 145)">
+      <text x="0" y="14" class="card-title" font-size="12.5" fill="#0284C7">💧 Água Potável (Leroy Merlin)</text>
+      <text x="10" y="32" class="body-text">✓ Depósito Horizontal 1.000 L PEAD Alimentar</text>
+      <text x="10" y="48" class="body-text">✓ Bomba Balão Einhell GC-WW 6538 (650 W, 20 L)</text>
+      <text x="10" y="64" class="body-text">✓ Bateria 3 Filtros (Sedimentos 5µm + Carvão CTO)</text>
+      <text x="10" y="80" class="body-text">✓ Esterilizador UV-C 25-30 W em Inox (99,99%)</text>
+    </g>
+
+    <!-- 3. Água de Reaproveitamento -->
+    <g transform="translate(16, 245)">
+      <text x="0" y="14" class="card-title" font-size="12.5" fill="#059669">♻️ Águas Não Potáveis (Hidrostation)</text>
+      <text x="10" y="32" class="body-text">✓ Depósito RoQuadro 500 L Quadrangular (PEAD)</text>
+      <text x="10" y="48" class="body-text">✓ Bomba Submersível Automática Cisterna (Interna)</text>
+      <text x="10" y="64" class="body-text">✓ Pré-filtro de folhas/cesto para pluviais/cinzentas</text>
+      <text x="10" y="80" class="body-text">✓ Mini-ETAR Biológica Exterior (GRAF / RoClean)</text>
+    </g>
+
+    <!-- Dicas de Projeto Footer -->
+    <g transform="translate(16, 345)">
+      <rect x="0" y="0" width="338" height="42" rx="6" fill="#F0FDF4" stroke="#BBF7D0" />
+      <text x="10" y="17" font-size="10.5" font-weight="700" fill="#15803D">Segurança Sanitária (Norma EN 1717):</text>
+      <text x="10" y="32" font-size="9.5" fill="#166534">Circuitos 100% estanques e independentes sem contaminação.</text>
+    </g>
+  </g>
+
+  <!-- BOTTOM CENTER: ESQUEMA DOS SISTEMAS -->
+  <g transform="translate(430, 620)">
+    <rect x="0" y="0" width="560" height="400" rx="10" fill="#FFFFFF" stroke="#DBD5C3" stroke-width="1.5" />
+    <path d="M0 10 Q0 0 10 0 L550 0 Q560 0 560 10 L560 34 L0 34 Z" fill="#204627" />
+    <text x="15" y="22" class="box-title">Esquema dos Sistemas e Integração Técnica</text>
+
+    <!-- 1. Diagrama Energia -->
+    <g transform="translate(20, 50)">
+      <text x="0" y="12" class="card-title" font-size="12" fill="#D97706">1. Circuito Elétrico Solar</text>
+      <rect x="0" y="22" width="520" height="75" rx="6" fill="#FEF3C7" stroke="#FDE68A" />
+      
+      <!-- Box Painéis -->
+      <rect x="15" y="32" width="100" height="40" rx="4" fill="#FFFFFF" stroke="#D97706" />
+      <text x="65" y="48" font-size="10" font-weight="800" fill="#92400E" text-anchor="middle">4x 400 W (Teto)</text>
+      <text x="65" y="62" font-size="8.5" fill="#6B7280" text-anchor="middle">1.600 Wp Solar</text>
+
+      <line x1="120" y1="52" x2="155" y2="52" stroke="#D97706" stroke-width="2" />
+      <polygon points="155,52 147,48 147,56" fill="#D97706" />
+
+      <!-- Box EcoFlow -->
+      <rect x="160" y="32" width="130" height="40" rx="4" fill="#1E293B" stroke="#0F172A" />
+      <text x="225" y="48" font-size="10" font-weight="800" fill="#38BDF8" text-anchor="middle">Delta Pro 3 + Extensor</text>
+      <text x="225" y="62" font-size="8.5" fill="#94A3B8" text-anchor="middle">8.192 Wh (4 kW saída)</text>
+
+      <line x1="295" y1="52" x2="330" y2="52" stroke="#D97706" stroke-width="2" />
+      <polygon points="330,52 322,48 322,56" fill="#D97706" />
+
+      <!-- Box Quadro IP65 -->
+      <rect x="335" y="32" width="85" height="40" rx="4" fill="#FFFFFF" stroke="#D97706" />
+      <text x="377" y="48" font-size="10" font-weight="800" fill="#92400E" text-anchor="middle">Quadro IP65</text>
+      <text x="377" y="62" font-size="8.5" fill="#6B7280" text-anchor="middle">Dif. 30mA</text>
+
+      <line x1="425" y1="52" x2="450" y2="52" stroke="#D97706" stroke-width="2" />
+      <polygon points="450,52 442,48 442,56" fill="#D97706" />
+
+      <!-- Saída Cargas -->
+      <rect x="455" y="32" width="55" height="40" rx="4" fill="#22C55E" />
+      <text x="482" y="48" font-size="9" font-weight="800" fill="#FFFFFF" text-anchor="middle">Cargas</text>
+      <text x="482" y="62" font-size="8" fill="#FFFFFF" text-anchor="middle">230 V AC</text>
+    </g>
+
+    <!-- 2. Diagrama Água Potável -->
+    <g transform="translate(20, 160)">
+      <text x="0" y="12" class="card-title" font-size="12" fill="#0284C7">2. Abastecimento Água Potável</text>
+      <rect x="0" y="22" width="520" height="75" rx="6" fill="#E0F2FE" stroke="#BAE6FD" />
+      
+      <!-- Depósito 1000L -->
+      <rect x="15" y="32" width="105" height="40" rx="4" fill="#FFFFFF" stroke="#0284C7" />
+      <text x="67" y="48" font-size="10" font-weight="800" fill="#0369A1" text-anchor="middle">Depósito 1.000 L</text>
+      <text x="67" y="62" font-size="8.5" fill="#6B7280" text-anchor="middle">PEAD Alimentar</text>
+
+      <line x1="125" y1="52" x2="155" y2="52" stroke="#0284C7" stroke-width="2" />
+      <polygon points="155,52 147,48 147,56" fill="#0284C7" />
+
+      <!-- Bomba Balão -->
+      <rect x="160" y="32" width="110" height="40" rx="4" fill="#FFFFFF" stroke="#0284C7" />
+      <text x="215" y="48" font-size="10" font-weight="800" fill="#0369A1" text-anchor="middle">Bomba Balão 650W</text>
+      <text x="215" y="62" font-size="8.5" fill="#6B7280" text-anchor="middle">Pressão 3,6 bar</text>
+
+      <line x1="275" y1="52" x2="305" y2="52" stroke="#0284C7" stroke-width="2" />
+      <polygon points="305,52 297,48 297,56" fill="#0284C7" />
+
+      <!-- Filtros + UV -->
+      <rect x="310" y="32" width="110" height="40" rx="4" fill="#FFFFFF" stroke="#0284C7" />
+      <text x="365" y="48" font-size="10" font-weight="800" fill="#0369A1" text-anchor="middle">Filtros PP + CTO</text>
+      <text x="365" y="62" font-size="8.5" fill="#6B7280" text-anchor="middle">+ Lâmpada UV 25W</text>
+
+      <line x1="425" y1="52" x2="450" y2="52" stroke="#0284C7" stroke-width="2" />
+      <polygon points="450,52 442,48 442,56" fill="#0284C7" />
+
+      <!-- Consumo Potável -->
+      <rect x="455" y="32" width="55" height="40" rx="4" fill="#0284C7" />
+      <text x="482" y="48" font-size="8.5" font-weight="800" fill="#FFFFFF" text-anchor="middle">Duche /</text>
+      <text x="482" y="62" font-size="8.5" font-weight="800" fill="#FFFFFF" text-anchor="middle">Cozinha</text>
+    </g>
+
+    <!-- 3. Diagrama Águas Reaproveitamento -->
+    <g transform="translate(20, 270)">
+      <text x="0" y="12" class="card-title" font-size="12" fill="#059669">3. Águas de Reaproveitamento &amp; ETAR</text>
+      <rect x="0" y="22" width="520" height="85" rx="6" fill="#DCFCE7" stroke="#BBF7D0" />
+      
+      <!-- Entrada Pluviais / Cinzentas -->
+      <rect x="15" y="34" width="105" height="40" rx="4" fill="#FFFFFF" stroke="#059669" />
+      <text x="67" y="50" font-size="9.5" font-weight="800" fill="#15803D" text-anchor="middle">Pluvial / Cinzentas</text>
+      <text x="67" y="64" font-size="8" fill="#6B7280" text-anchor="middle">Pré-filtro folhas</text>
+
+      <line x1="125" y1="54" x2="155" y2="54" stroke="#059669" stroke-width="2" />
+      <polygon points="155,54 147,50 147,58" fill="#059669" />
+
+      <!-- RoQuadro 500L com Bomba Submersível -->
+      <rect x="160" y="34" width="130" height="40" rx="4" fill="#FFFFFF" stroke="#059669" />
+      <text x="225" y="50" font-size="10" font-weight="800" fill="#15803D" text-anchor="middle">RoQuadro 500 L</text>
+      <text x="225" y="64" font-size="8.5" fill="#6B7280" text-anchor="middle">Bomba Submersa</text>
+
+      <line x1="295" y1="54" x2="330" y2="54" stroke="#059669" stroke-width="2" />
+      <polygon points="330,54 322,50 322,58" fill="#059669" />
+
+      <!-- Autoclismo & Rega -->
+      <rect x="335" y="34" width="85" height="40" rx="4" fill="#059669" />
+      <text x="377" y="50" font-size="9.5" font-weight="800" fill="#FFFFFF" text-anchor="middle">Autoclismo</text>
+      <text x="377" y="64" font-size="8.5" fill="#FFFFFF" text-anchor="middle">&amp; Rega Jardim</text>
+
+      <!-- Linha Ladrão para ETAR -->
+      <line x1="225" y1="74" x2="225" y2="92" stroke="#64748B" stroke-width="1.5" stroke-dasharray="2,2" />
+      <line x1="225" y1="92" x2="435" y2="92" stroke="#64748B" stroke-width="1.5" stroke-dasharray="2,2" />
+      <polygon points="440,92 432,88 432,96" fill="#64748B" />
+
+      <rect x="445" y="75" width="65" height="26" rx="4" fill="#475569" />
+      <text x="477" y="92" font-size="9" font-weight="800" fill="#FFFFFF" text-anchor="middle">Mini-ETAR</text>
+    </g>
+  </g>
+
+  <!-- BOTTOM RIGHT: TABELA RESUMO EXECUTIVO -->
+  <g transform="translate(1010, 620)">
+    <rect x="0" y="0" width="550" height="400" rx="10" fill="#FFFFFF" stroke="#DBD5C3" stroke-width="1.5" />
+    <path d="M0 10 Q0 0 10 0 L540 0 Q550 0 550 10 L550 34 L0 34 Z" fill="#204627" />
+    <text x="15" y="22" class="box-title">Resumo do Exemplo – 40 m² | 2 Pessoas | 3 a 5 Dias</text>
+
+    <!-- Table -->
+    <g transform="translate(15, 45)">
+      <!-- Table Header -->
+      <rect x="0" y="0" width="520" height="28" fill="#E8EFE8" rx="4" />
+      <text x="12" y="18" font-size="11" font-weight="800" fill="#1B3F22">Sistema</text>
+      <text x="180" y="18" font-size="11" font-weight="800" fill="#1B3F22">Capacidade Sugerida</text>
+      <text x="360" y="18" font-size="11" font-weight="800" fill="#1B3F22">Observações</text>
+
+      <!-- Row 1: Energia -->
+      <g transform="translate(0, 32)">
+        <rect x="0" y="0" width="520" height="48" fill="#FAFDF9" stroke="#E2E8F0" />
+        <text x="12" y="20" font-size="11" font-weight="800" fill="#D97706">⚡ Energia</text>
+        <text x="12" y="36" font-size="9.5" fill="#64748B">(EcoFlow)</text>
+        <text x="180" y="20" font-size="11" font-weight="700" fill="#1E293B">8.192 Wh (8,2 kWh)</text>
+        <text x="180" y="36" font-size="9.5" fill="#64748B">Inversor 4.000 W</text>
+        <text x="360" y="20" font-size="10.5" font-weight="700" fill="#15803D">Contínua com sol</text>
+        <text x="360" y="36" font-size="9.5" fill="#64748B">3 a 5 dias sem sol</text>
+      </g>
+
+      <!-- Row 2: Água Potável -->
+      <g transform="translate(0, 84)">
+        <rect x="0" y="0" width="520" height="48" fill="#F0F9FF" stroke="#E2E8F0" />
+        <text x="12" y="20" font-size="11" font-weight="800" fill="#0284C7">💧 Água Potável</text>
+        <text x="12" y="36" font-size="9.5" fill="#64748B">(Leroy Merlin)</text>
+        <text x="180" y="20" font-size="11" font-weight="700" fill="#1E293B">1.000 L Horizontal</text>
+        <text x="180" y="36" font-size="9.5" fill="#0284C7">Raio 0,47 m (&lt;&lt; 2 m)</text>
+        <text x="360" y="20" font-size="10.5" font-weight="700" fill="#0369A1">5 dias pleno uso</text>
+        <text x="360" y="36" font-size="9.5" fill="#64748B">100 L / pessoa / dia</text>
+      </g>
+
+      <!-- Row 3: Água Reaproveitamento -->
+      <g transform="translate(0, 136)">
+        <rect x="0" y="0" width="520" height="48" fill="#FAFDF9" stroke="#E2E8F0" />
+        <text x="12" y="20" font-size="11" font-weight="800" fill="#059669">♻️ Água Reutiliz.</text>
+        <text x="12" y="36" font-size="9.5" fill="#64748B">(Hidrostation)</text>
+        <text x="180" y="20" font-size="11" font-weight="700" fill="#1E293B">500 L RoQuadro</text>
+        <text x="180" y="36" font-size="9.5" fill="#059669">Chão: 0,58 m²</text>
+        <text x="360" y="20" font-size="10.5" font-weight="700" fill="#15803D">&gt; 14 dias autoclismo</text>
+        <text x="360" y="36" font-size="9.5" fill="#64748B">Autoclismo + Rega</text>
+      </g>
+
+      <!-- Row 4: Módulo Técnico -->
+      <g transform="translate(0, 188)">
+        <rect x="0" y="0" width="520" height="52" fill="#E8EFE8" stroke="#CBD5E1" />
+        <text x="12" y="22" font-size="11" font-weight="800" fill="#1B3F22">🏢 Módulo Técnico</text>
+        <text x="12" y="38" font-size="9.5" fill="#4B7355">2,50 m × 2,00 m</text>
+        <text x="180" y="22" font-size="11" font-weight="700" fill="#1B3F22">5,00 m² no total</text>
+        <text x="180" y="38" font-size="9.5" fill="#4B7355">Ocupação: 2,50 m²</text>
+        <text x="360" y="22" font-size="11" font-weight="800" fill="#15803D">2,50 m² LIVRES (50%)</text>
+        <text x="360" y="38" font-size="9.5" fill="#166534">Manutenção desimpedida</text>
+      </g>
+    </g>
+
+    <!-- Bottom Eco Badges -->
+    <g transform="translate(25, 315)">
+      <!-- Badge 1 -->
+      <g transform="translate(0, 0)">
+        <circle cx="20" cy="20" r="18" fill="#DCFCE7" />
+        <text x="20" y="26" font-size="18" text-anchor="middle">🌱</text>
+        <text x="45" y="18" font-size="10.5" font-weight="800" fill="#1B3F22">Eficiência</text>
+        <text x="45" y="31" font-size="9" fill="#4B7355">Energética</text>
+      </g>
+
+      <!-- Badge 2 -->
+      <g transform="translate(130, 0)">
+        <circle cx="20" cy="20" r="18" fill="#E0F2FE" />
+        <text x="20" y="26" font-size="18" text-anchor="middle">💧</text>
+        <text x="45" y="18" font-size="10.5" font-weight="800" fill="#0369A1">Economia</text>
+        <text x="45" y="31" font-size="9" fill="#0284C7">de Água</text>
+      </g>
+
+      <!-- Badge 3 -->
+      <g transform="translate(255, 0)">
+        <circle cx="20" cy="20" r="18" fill="#FEF3C7" />
+        <text x="20" y="26" font-size="18" text-anchor="middle">🌍</text>
+        <text x="45" y="18" font-size="10.5" font-weight="800" fill="#92400E">Baixo Impacto</text>
+        <text x="45" y="31" font-size="9" fill="#B45309">Ambiental</text>
+      </g>
+
+      <!-- Badge 4 -->
+      <g transform="translate(390, 0)">
+        <circle cx="20" cy="20" r="18" fill="#EDF6EE" />
+        <text x="20" y="26" font-size="18" text-anchor="middle">✨</text>
+        <text x="45" y="18" font-size="10.5" font-weight="800" fill="#1B3F22">Conforto</text>
+        <text x="45" y="31" font-size="9" fill="#4B7355">Off-Grid Total</text>
+      </g>
+    </g>
+  </g>
+</svg>
